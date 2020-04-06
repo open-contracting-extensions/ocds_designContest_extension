@@ -3,7 +3,7 @@
     "en": "Design contest"
   },
   "description": {
-    "en": "Adds an object in the Tender object to describe a design contest."
+    "en": "Adds an object to the Tender object to describe a design contest."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_designContest_extension"

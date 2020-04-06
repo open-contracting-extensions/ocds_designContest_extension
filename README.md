@@ -1,10 +1,10 @@
 # Design contest
 
-Adds an object in the Tender object to describe a design contest.
+Adds an object to the Tender object to describe a design contest.
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-704 (Reward and jury)](https://github.com/eForms/eForms) and [Title III, Chapter II of Directive 2014/24/EU](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1585836130257&uri=CELEX:32014L0024#d1e6612-65-1). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BG-704 (Reward and Jury)](https://github.com/eForms/eForms) and [Title III, Chapter II of Directive 2014/24/EU](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1585836130257&uri=CELEX:32014L0024#d1e6612-65-1). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Examples
 

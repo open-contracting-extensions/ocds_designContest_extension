@@ -16,7 +16,7 @@
       "properties": {
         "selectedParticipants": {
           "title": "Selected participants",
-          "description": "The parties that have been selected to participate to the design contest.",
+          "description": "The parties that have already been selected to participate to the design contest.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
@@ -33,12 +33,12 @@
         },
         "prizes": {
           "title": "Prizes",
-          "description": "Information about the prizes awarded in the design contest",
+          "description": "Information about the prizes awarded in the design contest.",
           "type": "object",
           "properties": {
             "description": {
               "title": "Description",
-              "description": "The description of the prizes",
+              "description": "The description of the prizes.",
               "type": [
                 "string",
                 "null"
@@ -55,16 +55,16 @@
           ]
         },
         "followUpContracts": {
-          "title": "Follow up contracts",
-          "description": "Whether any contracts following the design contest will or will not be awarded to the winner or winners of the design contest.",
+          "title": "Follow-up contracts",
+          "description": "Whether any contracts following the design contest will be awarded to the winner or winners of the design contest.",
           "type": [
             "boolean",
             "null"
           ]
         },
-        "isBindingJuryDecision": {
-          "title": "Is binding jury decision",
-          "description": "Whether the jury’s decision is binding on the contracting authority.",
+        "bindingJuryDecision": {
+          "title": "Binding jury decision",
+          "description": "Whether the jury’s decision is binding on the procuring entity.",
           "type": [
             "boolean",
             "null"
@@ -84,12 +84,12 @@
     },
     "JuryMember": {
       "title": "Jury member",
-      "description": "Member of the jury",
+      "description": "Member of the jury.",
       "type": "object",
       "properties": {
         "name": {
           "title": "Name",
-          "description": "The name of the jury member",
+          "description": "The name of the jury member.",
           "type": [
             "string",
             "null"
