@@ -1,0 +1,101 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "designContest": {
+          "title": "Design contest",
+          "description": "Information about the organization of a design contest.",
+          "$ref": "#/definitions/DesignContest"
+        }
+      }
+    },
+    "DesignContest": {
+      "title": "Design contest",
+      "description": "Information about the organization of a design contest.",
+      "type": "object",
+      "properties": {
+        "selectedParticipants": {
+          "title": "Selected participants",
+          "description": "The parties that have already been selected to participate to the design contest.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrganizationReference"
+          },
+          "uniqueItems": true
+        },
+        "hasPrizes": {
+          "title": "Has prizes",
+          "description": "Whether prizes will be awarded in the design contest.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "prizes": {
+          "title": "Prizes",
+          "description": "Information about the prizes awarded in the design contest.",
+          "type": "object",
+          "properties": {
+            "description": {
+              "title": "Description",
+              "description": "The description of the prizes.",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "rewardsDetails": {
+          "title": "Rewards details",
+          "description": "The details and conditions of the payments to be made to the participants.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "followUpContracts": {
+          "title": "Follow-up contracts",
+          "description": "Whether any contracts following the design contest will be awarded to the winner or winners of the design contest.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "bindingJuryDecision": {
+          "title": "Binding jury decision",
+          "description": "Whether the jury’s decision is binding on the procuring entity.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "juryMembers": {
+          "title": "Jury members",
+          "description": "The members of the jury.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/JuryMember"
+          },
+          "wholeListMerge": true,
+          "uniqueItems": true
+        }
+      }
+    },
+    "JuryMember": {
+      "title": "Jury member",
+      "description": "Member of the jury.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Name",
+          "description": "The name of the jury member.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
