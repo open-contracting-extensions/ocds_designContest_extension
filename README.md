@@ -28,7 +28,7 @@ In the European Union, this extension's fields correspond to [eForms BG-704 (Rew
       },
       "rewardsDetails": "The payment is made by administrative mandate within 30 days in accordance with the regulations in force.",
       "followUpContracts": true,
-      "isBindingJuryDecision": true,
+      "bindingJuryDecision": true,
       "juryMembers": [
         {
           "name": "Karla Schaffer"
