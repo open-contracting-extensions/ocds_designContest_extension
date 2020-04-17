@@ -1,6 +1,6 @@
 # Design contest
 
-Adds an object to the Tender object to describe a design contest.
+Adds an object to the tender object to describe a design contest.
 
 ## Legal context
 
