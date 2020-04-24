@@ -21,7 +21,8 @@
           "items": {
             "$ref": "#/definitions/OrganizationReference"
           },
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         },
         "hasPrizes": {
           "title": "Has prizes",
@@ -42,9 +43,11 @@
               "type": [
                 "string",
                 "null"
-              ]
+              ],
+              "minLength": 1
             }
-          }
+          },
+          "minProperties": 1
         },
         "rewardsDetails": {
           "title": "Rewards details",
@@ -52,7 +55,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "followUpContracts": {
           "title": "Follow-up contracts",
@@ -78,9 +82,11 @@
             "$ref": "#/definitions/JuryMember"
           },
           "wholeListMerge": true,
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         }
-      }
+      },
+      "minProperties": 1
     },
     "JuryMember": {
       "title": "Jury member",
@@ -93,9 +99,11 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
-      }
+      },
+      "minProperties": 1
     }
   }
 }
