@@ -61,7 +61,7 @@ A contracting process with a single prize.
 
 ### Lot
 
-An example with multiple prizes for a single lot.
+A lot with multiple prizes.
 
 ```json
 {

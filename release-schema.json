@@ -111,7 +111,7 @@
       "properties": {
         "description": {
           "title": "Description",
-          "description": "The description of the prizes.",
+          "description": "A description of the prizes. Structured information should be provided in `.details`.",
           "type": [
             "string",
             "null"
@@ -133,12 +133,12 @@
     },
     "PrizeDetail": {
       "title": "Prize detail",
-      "description": "Details of a prize awarded in the design contest.",
+      "description": "The details of a prize awarded in the design contest.",
       "type": "object",
       "properties": {
         "id": {
           "title": "Identifier",
-          "description": "An identifier for the prize.",
+          "description": "A locally unique identifier for this prize. Used to track changes to this prize and to [merge](https://standard.open-contracting.org/latest/en/schema/merging/#merging) multiple releases to create a record.",
           "type": [
             "string"
           ],
@@ -147,7 +147,7 @@
         },
         "description": {
           "title": "Description",
-          "description": "The description of the prize.",
+          "description": "A description of this prize. Structured information should be provided in `.value`.",
           "type": [
             "string",
             "null"
@@ -156,7 +156,7 @@
         },
         "value": {
           "title": "Value",
-          "description": "The value of the prize.",
+          "description": "The value of this prize.",
           "$ref": "#/definitions/Value"
         }
       },
