@@ -8,7 +8,7 @@ In the European Union, this extension's fields correspond to [eForms BG-704 (Rew
 
 ## Examples
 
-An example with a single prize for a tender.
+A contracting process with a single prize.
 
 ```json
 {
