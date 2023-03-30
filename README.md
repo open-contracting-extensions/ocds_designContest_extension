@@ -26,7 +26,7 @@ A contracting process with a single prize.
       ],
       "hasPrizes": true,
       "prizes": {
-        "description": "The winner(s), as well as each unsuccessful competitor who has provided services which meet the program, will receive, subject to the decision of the contracting authority, a prize of EUR 3,000.00 (VAT free).",
+        "description": "The winner(s) will receive a prize of EUR 3,000.00 (VAT free).",
         "details": [
           {
             "id": "1",
