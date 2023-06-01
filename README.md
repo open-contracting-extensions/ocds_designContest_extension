@@ -127,7 +127,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-03-10
 
-* Add `lots.designContest`, `Prizes` and `PrizeDetail` objects.
+* Add `lots.designContest`, `Prizes` and `Prize` objects.
 
 ### 2020-04-24
 
