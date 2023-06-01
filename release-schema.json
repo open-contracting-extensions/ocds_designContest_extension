@@ -106,12 +106,12 @@
     },
     "Prizes": {
       "title": "Prizes",
-      "description": "Information about the prizes awarded in the design contest.",
+      "description": "Information about the prizes awarded in a design contest.",
       "type": "object",
       "properties": {
         "description": {
           "title": "Description",
-          "description": "A description of the prizes. Structured information should be provided in `.details`.",
+          "description": "The description of the prizes.",
           "type": [
             "string",
             "null"
@@ -120,10 +120,10 @@
         },
         "details": {
           "title": "Details",
-          "description": "The details of the prizes awarded in the design contest.",
+          "description": "Information about the individual prizes.",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/PrizeDetail"
+            "$ref": "#/definitions/Prize"
           },
           "uniqueItems": true,
           "minItems": 1
@@ -131,14 +131,14 @@
       },
       "minProperties": 1
     },
-    "PrizeDetail": {
-      "title": "Prize detail",
-      "description": "The details of a prize awarded in the design contest.",
+    "Prize": {
+      "title": "Prize",
+      "description": "Information about an individual prize awarded in a design contest.",
       "type": "object",
       "properties": {
         "id": {
           "title": "Identifier",
-          "description": "A locally unique identifier for this prize. Used to track changes to this prize and to [merge](https://standard.open-contracting.org/latest/en/schema/merging/#merging) multiple releases to create a record.",
+          "description": "The locally unique identifier for the prize.",
           "type": [
             "string"
           ],
@@ -147,7 +147,7 @@
         },
         "description": {
           "title": "Description",
-          "description": "A description of this prize. Structured information should be provided in `.value`.",
+          "description": "The description of the prize.",
           "type": [
             "string",
             "null"
@@ -156,7 +156,7 @@
         },
         "value": {
           "title": "Value",
-          "description": "The value of this prize.",
+          "description": "The value of the prize.",
           "$ref": "#/definitions/Value"
         }
       },
