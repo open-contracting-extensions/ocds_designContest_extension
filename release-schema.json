@@ -25,7 +25,7 @@
       "properties": {
         "selectedParticipants": {
           "title": "Selected participants",
-          "description": "The parties that have already been selected to participate to the design contest.",
+          "description": "The organizations that have already been selected to participate in the design contest.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
