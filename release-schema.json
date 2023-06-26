@@ -133,6 +133,9 @@
       "title": "Prize",
       "description": "Information about an individual prize awarded in a design contest.",
       "type": "object",
+      "required": [
+        "id"
+      ],
       "properties": {
         "id": {
           "title": "Identifier",
@@ -158,9 +161,6 @@
           "$ref": "#/definitions/Value"
         }
       },
-      "required": [
-        "id"
-      ],
       "minProperties": 1
     }
   }
