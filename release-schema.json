@@ -44,7 +44,6 @@
         "prizes": {
           "title": "Prizes",
           "description": "Information about the prizes awarded in the design contest.",
-          "type": "object",
           "$ref": "#/definitions/Prizes"
         },
         "rewardsDetails": {
