@@ -45,8 +45,7 @@
           "title": "Prizes",
           "description": "Information about the prizes awarded in the design contest.",
           "type": "object",
-          "$ref": "#/definitions/Prizes",
-          "minProperties": 1
+          "$ref": "#/definitions/Prizes"
         },
         "rewardsDetails": {
           "title": "Rewards details",
